@@ -1066,10 +1066,10 @@ export default {
       postNameId: 0,
       opsName: ["ads", "app", "ops", "srv", "offr", "ask", "rRNA"],
       opsNameId: 1,
-      backgroundText: `&nbsp;Biz&nbsp; &#x2731 &nbsp;Dev &nbsp;&#x2731&nbsp; Ops
+      backgroundText: `&nbsp;Soc&nbsp; &#x2731 &nbsp;Dev &nbsp;&#x2731&nbsp; Ops
             <br><br>
             &nbsp;recombinant &nbsp;repos`,
-      liveText: `&nbsp; cash =&nbsp;cmds&nbsp;&#x2731 ops
+      liveText: `&nbsp; cash =&nbsp;dev&nbsp;&#x2731 ops
             <br><br>
             terra winwin engine`,
       devText: `&nbsp; ATP &nbsp; &nbsp; DNA &nbsp;&nbsp; RNA

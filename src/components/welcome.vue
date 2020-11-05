@@ -1,7 +1,7 @@
 <template>
   <div id="welcome">
-    <h1>Teamplayer @ AI Speed</h1>
-    <p>train >> monetize >> repeat 24/7 - 1st gen. DNA OS</p>
+    <h1>players @ AI speed</h1>
+    <p><span class="red-text">learn</span> > <span class="yellow-text">monetize</span> > <span class="blue-text">repeat</span> 24/7 - 1st gen. DNA OS</p>
     <div class="cta">
       <router-link to="/signup">Sign Up</router-link>
       <router-link to="/signin">Sign In</router-link>
@@ -10,6 +10,16 @@
 </template>
 
 <style scoped>
+.red-text {
+  color: red;
+}
+.yellow-text {
+  color: orange;
+}
+.blue-text {
+  color: blue;
+}
+
 #welcome {
   width: 80%;
   margin: auto;
