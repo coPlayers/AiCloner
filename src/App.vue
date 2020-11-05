@@ -8,7 +8,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
-          <div class="title-container">
+          <div class="title-container" :class="[viewId % view.length == 2 ? 'max-width-33' : '' ]">
             <div class="header-group titles">
               <!-- <div><img id="logo" src="./assets/amp-logo.png"></div> -->
               <div contenteditable="true">
@@ -72,7 +72,7 @@
               </div>-->
             </div>
 
-            <div class="header-group devNews">
+            <div class="header-group devNews" >
               <div class="title news-scroller" contenteditable="true">
                 <ul class="scroller">
                   <li
@@ -1805,6 +1805,10 @@ html {
   /* font-size: 80%; */
   /* font-size: smaller; */
   /* font-size: calc(14px - .5vw); */
+}
+
+.max-width-33 {
+  max-width: 33.33%;
 }
 
 .container-fluid {
