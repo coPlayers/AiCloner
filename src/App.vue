@@ -1039,7 +1039,7 @@ export default {
       timeUnit: ["sec", "min"],
       timeUnitId: 0,
       view: ["biz", "dev", "soc"],
-      viewId: 0,
+      viewId: 2,
       socialView: ["xls", "mix", "fb"],
       socialViewId: 1,
       sheetView: false,

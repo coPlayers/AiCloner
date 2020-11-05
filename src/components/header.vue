@@ -1,7 +1,7 @@
 <template>
   <header id="header">
     <div class="logo">
-      <router-link to="/">iPLAY</router-link>
+      <router-link to="/">iPLAY OS</router-link>
     </div>
     <nav>
       <ul>
