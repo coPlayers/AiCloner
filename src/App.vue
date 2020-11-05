@@ -72,7 +72,7 @@
               </div>-->
             </div>
 
-            <div class="header-group devNews" >
+            <div class="header-group devNews" :class="[viewId % view.length == 2 ? 'min-width-66' : '' ]">
               <div class="title news-scroller" contenteditable="true">
                 <ul class="scroller">
                   <li
@@ -1809,6 +1809,10 @@ html {
 
 .max-width-33 {
   max-width: 33.33%;
+}
+
+.min-width-66 {
+  min-width: 66.66%;
 }
 
 .min-width-900 {
