@@ -5,10 +5,10 @@
 
     <router-view></router-view>
 
-    <div class="container-fluid">
+    <div class="container-fluid" :class="[viewId % view.length == 2 ? 'max-width-33' : '' ]">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
-          <div class="title-container" :class="[viewId % view.length == 2 ? 'max-width-33' : '' ]">
+          <div class="title-container" >
             <div class="header-group titles">
               <!-- <div><img id="logo" src="./assets/amp-logo.png"></div> -->
               <div contenteditable="true">
@@ -257,7 +257,7 @@
               </div>
             </div>
 
-            <div id="ai-jobs">
+            <div id="ai-jobs" :class="[viewId % view.length == 2 ? 'min-width-900' : '' ]">
               <div class="buttons">
                 <button class="next btn btn-primary" @click="nextProject">
                   Projects
@@ -1811,6 +1811,10 @@ html {
   max-width: 33.33%;
 }
 
+.min-width-900 {
+  min-width: 900px;
+}
+
 .container-fluid {
   padding: 0px;
   overflow-x: hidden;
@@ -2028,8 +2032,15 @@ textarea {
 } */
 
 #ai-prog,
-#ai-jobs,
 #ai-ops {
+  width: 33.33%;
+  max-height: 64rem;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+}
+
+#ai-jobs {
   width: 33.33%;
   max-height: 64rem;
   display: flex;
