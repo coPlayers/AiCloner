@@ -1072,7 +1072,7 @@ export default {
       liveText: `&nbsp; cash =&nbsp;dev&nbsp;&#x2731 ops
             <br><br>
             terra winwin engine`,
-      devText: `&nbsp; ATP &nbsp; &nbsp; DNA &nbsp;&nbsp; RNA
+      devText: `&nbsp; $ATP &nbsp; &nbsp; DNA &nbsp;&nbsp; RNA
       <br><br>
       best &nbsp;practices &nbsp;AI`,
       visibleRows: 1,
