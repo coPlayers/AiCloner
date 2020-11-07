@@ -1,4 +1,4 @@
-# Team Player Engine - Dev & Play Monetizer
+# Ai Cloner Engine - Dev & Play Monetizer
 
 collaboration engine / social monetization protocol - PoC
 

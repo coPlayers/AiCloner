@@ -1,7 +1,7 @@
 <template>
   <div id="welcome">
-    <h1>players @ AI speed</h1>
-    <p><span class="red-text">learn</span> > <span class="yellow-text">monetize</span> > <span class="blue-text">repeat</span> 24/7 - 1st gen. DNA OS</p>
+    <h1>Teamplayer @ AI speed</h1>
+    <p><span class="red-text">script</span> >> <span class="yellow-text">monetize</span> >> <span class="blue-text">repeat</span> 24/7 - 3rd generation DNA OS</p>
     <div class="cta">
       <router-link to="/signup">Sign Up</router-link>
       <router-link to="/signin">Sign In</router-link>
